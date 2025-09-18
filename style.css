@@ -81,6 +81,7 @@ background-image: url(berger.avif);
 .other{
     text-align: center;
     margin-top: 40px;
+    font-size: 25px;
 }
 .box1{
     width: 333px;
@@ -90,14 +91,16 @@ background-image: url(berger.avif);
     border-radius: 4px;
     text-align: center;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
     transition: all 300ms;
    
 }
+
+
 .box1 h2{
     margin-top: 5px;
     /* font-family: 'Poppins', sans-serif; */
-    /* font-size: 25px; */
+    font-size: 24px;
     
 }
 .box1 p{
@@ -117,6 +120,7 @@ background-image: url(berger.avif);
     padding: 20px 50px 0 50px;
 }
 footer{
+    margin-top: 20px;
     text-align: center;
     background-color: #ffb703;
     padding: 20px;
