@@ -1,0 +1,135 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;font-family: poppins;
+}
+header{
+    background-color: #ffb703;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px ;
+}
+.right ul{
+    display: flex;
+    gap: 20px;
+}
+.right li{
+    list-style: none;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+}
+.right li a:hover{
+    text-decoration: underline;
+}
+.slider{
+background-image: url(berger.avif);
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  
+    
+}
+.hb{
+    text-align: center;
+    z-index: 2;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  top: 20vh;
+  gap: 10px;
+  font-size: 30px;
+   
+}
+.buttans{
+    background-color: #ffb703;
+    border: solid #ffb703;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.buttans:hover{
+    background-color: white;
+    border: solid white;
+}
+.buttans a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+.buttans a:hover{
+    color: #ffb703;
+}
+.box{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    opacity: .4;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+   
+}
+.maindiv{
+    position: relative;
+}
+.other{
+    text-align: center;
+    margin-top: 40px;
+}
+.box1{
+    width: 333px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0.4, 0.4, 0.4, 0.4);
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+   
+}
+.box1 h2{
+    margin-top: 5px;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-size: 25px; */
+    
+}
+.box1 p{
+    margin-top: 5px;
+    
+    
+}
+.box1:hover{
+     transform: scale(1.1);
+     background-color: #ffb703;
+     color: white;
+}
+.mainbox1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0 50px;
+}
+footer{
+    text-align: center;
+    background-color: #ffb703;
+    padding: 20px;
+    color: white;
+}
+.bg{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.f1{
+    font-size: 15px;
+}
