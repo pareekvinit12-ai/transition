@@ -49,24 +49,19 @@ background-image: url(berger.avif);
    
 }
 .buttans{
+    text-decoration: none;
     background-color: #ffb703;
     border: solid #ffb703;
-    padding: 5px 10px 5px 10px;
-    font-size: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
 }
 .buttans:hover{
     background-color: white;
-    border: solid white;
-}
-.buttans a{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-
-}
-.buttans a:hover{
     color: #ffb703;
+    border: solid #fff;
 }
 .box{
     height: 60vh;
@@ -111,6 +106,7 @@ background-image: url(berger.avif);
      transform: scale(1.1);
      background-color: #ffb703;
      color: white;
+    
 }
 .mainbox1{
     display: flex;
