@@ -137,3 +137,166 @@ footer{
 .f1{
     font-size: 15px;
 }
+.mainabout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.l{
+    width: 800px;
+    height: 380px;
+}
+.l img{
+    width: 100%;
+    height: 100%;
+}
+.r{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+
+
+}
+.r a{
+    text-decoration: none;
+    background-color: #ffb703;
+    border: solid #ffb703;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    transition: all 300ms;
+    width: 130px;
+    text-align: center;
+    
+}
+.r a:hover{
+    background-color: white;
+    color: #ffb703;
+    border: solid #ffb703;
+}
+
+.r span{
+    color: #ffb703;
+}
+.most{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+.most span{
+    color: #ffb703;
+}
+.diba{
+    width: 310px;height: 310px;
+    background-color: #ffb703;
+}
+.diba img{
+    width: 100%;
+}
+.d{
+    width: 200px;height: 100px;
+    background-color: #ffb703;
+}
+.d img{
+    width: 100%;
+     height: 100%;
+    object-fit: cover;
+
+}
+.dd{
+    width: 200px;height: 100px;
+    background-color: #ffb703;
+}
+.dd img{
+    width: 100%;
+     height: 100%;
+    object-fit: cover;
+    
+}
+.diba2{
+    
+    width: 410px;height: 200px;
+    background-color: #ffb703;
+
+
+}
+.diba2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.maindida3{
+    display: flex;
+    align-items: end;
+}
+.maindiba{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    margin: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.maindiba2{
+    display: flex;
+    align-items:top;
+    justify-content: center;
+    gap: 10px;
+}
+.mn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.mainrice{
+    /* background-color: #ffb703; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.rice img{
+    width: 250px;
+
+}
+.rice{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.rice a{
+    background-color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: solid white;
+    border-radius: 5px;
+    color: #ffb703;
+    font-size: 20px;
+    font-weight: 600;
+    width: 130px;
+    text-align: center;
+    margin: auto;
+    transition: all 300ms;
+}
+.rice a:hover{
+    background-color:#ffb703;
+    color: white;
+    border: solid white;
+}
+.ourmenu{
+    text-align: center;
+    margin-top: 40px;
+    background-color: #ffb703;
+    padding: 40px;
+    color: white;
+}
+.ourmenu p{
+    width: 50%;
+    margin: auto;
+}

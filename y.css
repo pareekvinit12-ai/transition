@@ -1,53 +1,200 @@
+/* Common */
 *{
-    margin: 0;padding: 0;
-    box-sizing: border-box;
-    font-family: poppins;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff4c4c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #e63838;
+}
+
+/* Header */
 .main{
-    display: flex;
-    background-color: black;
-    color: white;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 40px;
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+.logo h1 {
+  font-size: 1.8rem;
 }
 .menu ul{
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-.menu li a{
-    text-decoration: none;
-    color: white;
+  display: flex;
+  list-style: none;
+  gap: 20px;
 }
 .menu li{
-    color: white;
-    position: relative;
-    padding: 10px;
-    
-    
+  color: white;
+  position: relative;
+  padding: 10px;
+}
+.menu li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.menu li a:hover {
+  color: #ff4c4c;
 }
 .submenu {
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  left: -10px;
+  width: 150px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+.menu li:hover .submenu {
+  display: flex;
+}
+.submenu li a {
+  padding: 8px;
+  display: block;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://picsum.photos/1920/700') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 140px 20px;
+}
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+/* About */
+.about {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+.about p {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.about-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card h3 {
+  color: #ff4c4c;
+  margin-bottom: 10px;
+}
+
+/* Services */
+.services {
+  padding: 60px 20px;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.service-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.service-card h3 {
+  color: #ff4c4c;
+  margin-bottom: 10px;
+}
+
+/* Contact */
+.contact {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 1rem;
+}
+.contact button {
+  background-color: #ff4c4c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 1rem;
+}
+.contact button:hover {
+  background-color: #e63838;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+  .menu ul {
     flex-direction: column;
-    /* display: none; */
-    position: absolute;
-    top: 40px;
-    left: -10px;
-    width: 150px;
-    background-color: black;
-    gap: 1px;
-    
-}
-    
-
-
-.submenu li{
-    display: none;
-}
-
-
-.menu li:hover .submenu li{
-    display: block;
-
+    gap: 10px;
+  }
+  .main {
+    flex-direction: column;
+  }
 }
