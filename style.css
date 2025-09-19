@@ -192,11 +192,16 @@ footer{
     color: #ffb703;
 }
 .diba{
-    width: 310px;height: 310px;
+    
+    width: 515px;
+    height: 310px;
     background-color: #ffb703;
 }
+
 .diba img{
     width: 100%;
+    height: 310px;
+    object-fit: cover;
 }
 .d{
     width: 200px;height: 100px;
@@ -300,3 +305,66 @@ footer{
     width: 50%;
     margin: auto;
 }
+.cakes{
+    width: 240px;
+    height: 370px;
+    background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  
+}
+.cakes img{
+    width: 240px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0 0 0 20px;
+
+}
+.cakes a{
+    background-color: #ffb703;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    margin: auto;
+    border: solid #ffb703;
+    border-radius: 5px;
+    transition: all 300ms;
+    
+    
+}
+.cakes a:hover{
+    background-color: #fff;
+    border: solid #ffb703;
+    color: #ffb703;
+}
+.cakes p{
+    font-size: 12px;
+    color: black;
+}
+.cakes h1{
+    font-size: 22px;
+    color: black;
+}
+.maincake{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.cake{
+    text-align: center;
+    background-color: #ffb703;
+    margin-top: 50px;
+}
+.cake{
+    color: #fff;
+    padding: 20px;
+    
+}
+/* .cake h1{
+    margin: 10px;
+} */
